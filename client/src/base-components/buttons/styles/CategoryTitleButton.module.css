@@ -1,0 +1,18 @@
+.button {
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    padding: 0;
+
+    border: none;
+    background: inherit;
+    cursor: pointer;
+}
+
+.button > i {
+    font-size: 20px;
+}
+
+.button:hover > i {
+    color: #a44a3f;
+}

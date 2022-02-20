@@ -1,0 +1,45 @@
+.card {
+    width: 265px;
+    padding: 15px 10px;
+
+    background-color: #fff;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+
+.card > h4 {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0.2em;
+}
+
+.table {
+    margin-top: 12px;
+    border-collapse: collapse;
+}
+
+.table th,
+.table td {
+    width: 85px;
+}
+
+.table > thead > tr > th {
+    padding-bottom: 8px;
+
+    font-size: 12px;
+    font-weight: 700;
+    color: #a44a3f;
+
+    text-align: left;
+    vertical-align: top;
+}
+
+.table > tbody > tr > td {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.1em;
+    color: #666;
+}

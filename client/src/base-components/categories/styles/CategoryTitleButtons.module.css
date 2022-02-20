@@ -1,0 +1,7 @@
+.titleButtons > button {
+    margin-right: 10px;
+}
+
+.titleButtons > button:last-child {
+    margin-right: 20px;
+}

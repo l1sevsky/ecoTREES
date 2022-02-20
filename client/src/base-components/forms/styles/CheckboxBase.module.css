@@ -1,0 +1,52 @@
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.input {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+
+.label {
+    position: relative;
+    padding-left: 38px;
+
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+    text-transform: capitalize;
+
+    cursor: pointer;
+}
+
+.label::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 24px;
+    height: 24px;
+
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: 16px;
+    background-position: center;
+
+    border: 1px solid #cdd3ce;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.input:hover + label::before {
+    background-image: url('../../../resource/icons/ico-checkbox-hover.svg');
+}
+
+.input:checked + label::before {
+    background-image: url('../../../resource/icons/ico-checkbox-checked.svg');
+}

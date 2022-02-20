@@ -1,0 +1,11 @@
+.note {
+    margin-left: 10px;
+
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    hyphens: auto;
+    color: #999;
+}

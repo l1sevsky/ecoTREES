@@ -1,0 +1,48 @@
+.link {
+    display: block;
+    max-width: 70px;
+
+    text-align: center;
+    text-decoration: none;
+
+    border: none;
+    background-color: inherit;
+    cursor: pointer;
+}
+
+.link > i {
+    display: block;
+    margin-top: 12px;
+
+    font-size: 30px;
+    line-height: 30px;
+}
+
+.link > p {
+    visibility: hidden;
+
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 12px;
+    letter-spacing: 0.05em;
+    color: #a44a3f;
+}
+
+.active > .link > i,
+.link:hover > i {
+    margin: 0;
+
+    font-size: 24px;
+    line-height: 24px;
+    color: #a44a3f;
+}
+
+.active > .link > p,
+.link:hover > p {
+    visibility: visible;
+}
+
+.link > i,
+.link > p { 
+    transition: all 0.1s linear;
+}

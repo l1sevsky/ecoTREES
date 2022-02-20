@@ -1,0 +1,58 @@
+.link { 
+    display: block;
+    text-decoration: none;
+}
+
+.button {
+    height: 40px;
+    padding: 0 12px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    border: none;
+    border-radius: 15px;
+    
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}
+
+.button:hover > .title {
+    padding-bottom: 3px;
+    border-bottom: 2px solid rgba(256, 256, 256, 0.8);     
+}
+
+.button.green {
+    background: linear-gradient(rgba(46, 83, 57, 0.6), rgba(46, 83, 57, 0.9)),
+                                #f9f8f8;       
+}
+
+.button.orange {
+    background: linear-gradient(rgba(233, 140, 93, 0.6), rgba(233, 140, 93, 0.9)),
+                                #f9f8f8;       
+}
+
+.button.black {
+    background: linear-gradient(rgba(5, 5, 23, 0.6), rgba(5, 5, 23, 0.9)),
+                                #f9f8f8;       
+}
+
+.button > i {
+    margin-top: 5px;
+    margin-right: 10px;
+
+    font-size: 20px;
+    color: #fff;
+}
+
+.title {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 14px;
+    letter-spacing: 0.05em;
+    color: #fff;
+
+    transition: all 0.1s linear;
+}

@@ -1,0 +1,36 @@
+.navbar,
+.headerNavbar {
+    height: 60px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerNavbar {
+    width: 285px;
+}
+
+.navbar {
+    width: 335px;
+    border-radius: 20px;
+    background: linear-gradient(rgba(205, 211, 206, 0.4), rgba(205, 211, 206, 1)),
+                #f9f8f8;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.elements {
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 0 25px;
+    list-style-type: none;
+}
+
+.headerNavbar .elements {
+    margin: 0;
+}

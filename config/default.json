@@ -1,0 +1,4 @@
+{
+    "server_port": 5000,
+    "database_url": "mongodb+srv://database-admin:psOrn214t@cluster0.4khjg.mongodb.net/products?retryWrites=true&w=majority"
+}

@@ -1,0 +1,136 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 335px;
+    padding: 15px;
+
+    background-color: #fff;
+    background-position: 0 0;
+    background-size: 180px auto;
+    background-repeat: no-repeat;
+    
+    border-radius: 30px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+
+    cursor: pointer;
+}
+
+.contentHeader {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+
+}
+
+.contentHeader > h3 {
+    display: inline-block;
+    padding: 0 14px;
+
+    font-size: 28px;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    color: #050517;
+
+    background-color: rgba(205, 211, 206, 0.6);
+    border-radius: 12px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.woods {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 130px;
+    margin-top: 15px;
+    margin-right: 5px;
+}
+
+.woods > i {
+    width: 24px;
+    height: 24px;
+    font-size: 24px;
+    line-height: 24px;
+    margin-right: 10px;
+}
+
+.woods > p {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.contentMain {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 40px;
+    padding: 0 5px;
+}
+
+.buttons > *,
+.prices > div {
+    margin-bottom: 7px;
+}
+
+.buttons > button:last-child,
+.prices > div:last-child {
+    margin-bottom: 0;
+}
+
+.prices {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.prices > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.wholesalePrice * {
+    color: #cdd3ce;    
+}
+
+.wholesalePrice > .price {
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+}
+
+.wholesalePrice > .price > span {
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.retailPrice * {
+    color: #050517;    
+}
+
+.retailPrice > .price {
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+}
+
+.retailPrice > .price > span {
+    font-size: 28px;
+    line-height: 28px;
+}
+
+.priceType {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 12px;
+    letter-spacing: 0;
+    text-transform: lowercase;
+}
